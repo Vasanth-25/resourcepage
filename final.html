@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Page</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            scroll-behavior: smooth;
+        }
+
+        /* Content Container Styling */
+        .content-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .content-container:hover {
+            transform: scale(1.02);
+        }
+
+        /* Heading Styling */
+        h1 {
+            text-align: center;
+            color: #0056b3;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Paragraph and List Styling */
+        p, ul, ol {
+            color: #333333;
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+        ul li, ol li {
+            margin-bottom: 10px;
+        }
+
+        /* Link Styling */
+        a {
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #003580;
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        .footer {
+            margin-top: auto;
+            background-color: #003580;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+
+        /* Scroll Animation */
+        .appear {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Content Container -->
+    <div class="content-container" id="section1">
+        <!-- Heading -->
+        <h1>ACCESS EXTERNAL RESOURCES</h1>
+
+        <!-- Paragraph -->
+        <p>
+            In this section, you'll find a curated list of trustworthy external resources to enhance your digital safety knowledge. We've included information from top government cybersecurity agencies, reputable cybersecurity blogs, news sites, and recommended tools and software to strengthen your digital security.
+        </p>
+
+        <!-- Unordered List -->
+        <ul>
+            <li>Government Cybersecurity Agencies</li>
+            <li>Reputable Cybersecurity Blogs and News Sites</li>
+            <li>Tools and Software for Enhancing Digital Security</li>
+        </ul>
+    </div>
+
+    <div class="content-container">
+        <!-- Heading -->
+        <h1>Government Cybersecurity Agencies</h1>
+        <ol>
+            <li>
+                <strong>Indian Computer Emergency Response Team (CERT-In)</strong><br>
+                CERT-In is the national agency responsible for dealing with cybersecurity threats in India.
+                <br><a href="#">CERT-In Alerts</a>
+            </li>
+            <li>
+                <strong>National Critical Information Infrastructure Protection Centre (NCIIPC)</strong><br>
+                NCIIPC focuses on safeguarding India's critical information infrastructure, particularly in key sectors like energy, banking, telecom, and defense.
+                <br><a href="#">NCIIPC Resources</a>
+            </li>
+            <li>
+                <strong>Cyber and Information Security Division (C&IS)</strong><br>
+                Part of the Ministry of Home Affairs, C&IS is responsible for implementing cybersecurity policies.
+                <br><a href="#">Ministry of Home Affairs - Cyber and Information Security</a><br>
+                <a href="#">Cybercrime Resources</a>
+            </li>
+            <li>
+                <strong>Defence Cyber Agency (DCA)</strong><br>
+                The Defence Cyber Agency focuses on protecting the Indian Armed Forces' cyber infrastructure.
+                <br><a href="#">Ministry of Defence</a>
+            </li>
+            <li>
+                <strong>National Cyber Coordination Centre (NCCC)</strong><br>
+                NCCC operates under the Ministry of Electronics and Information Technology (MeitY) for real-time threat assessment.
+                <br><a href="#">Ministry of Electronics and IT - NCCC</a>
+            </li>
+            <li>
+                <strong>Data Security Council of India (DSCI)</strong><br>
+                DSCI works in collaboration with the government to promote data protection and cybersecurity.
+                <br><a href="#">DSCI Resources</a>
+            </li>
+        </ol>
+
+        <h1>Reputable Cybersecurity Blogs and News Sites India</h1>
+        <ol>
+            <li>
+                <strong>CyberSafe</strong><br>
+                CyberSafe is an Indian cybersecurity blog providing regular updates on cybersecurity news and best practices.
+                <br><a href="#">CyberSafe - Main Site</a>
+            </li>
+            <li>
+                <strong>SecurityXploded</strong><br>
+                SecurityXploded is an Indian platform offering cybersecurity resources including blogs, tools, and tutorials.
+                <br><a href="#">SecurityXploded - Main Site</a>
+            </li>
+            <li>
+                <strong>The Hacker News India</strong><br>
+                The Hacker News India provides the latest cybersecurity news, hacking incidents, and expert insights.
+                <br><a href="#">The Hacker News - Main Site</a>
+            </li>
+            <li>
+                <strong>InfoSec Awareness</strong><br>
+                InfoSec Awareness is an initiative for spreading information security awareness.
+                <br><a href="#">InfoSec Awareness - Main Site</a>
+            </li>
+            <li>
+                <strong>CISO MAG</strong><br>
+                CISO MAG covers topics including cyber threats, compliance, and security strategies.
+                <br><a href="#">CISO MAG - Main Site</a>
+            </li>
+            <li>
+                <strong>ISAC (Indian School of Anti Hacking)</strong><br>
+                ISAC provides news, analysis, and educational content related to cybersecurity.
+                <br><a href="#">ISAC - Main Site</a>
+            </li>
+        </ol>
+
+        <h1>Tools and Software for Enhancing Digital Security</h1>
+        <ol>
+            <li>
+                <strong>K7 Total Security</strong><br>
+                K7 Total Security provides antivirus protection, internet security, and privacy protection features.
+                <br><a href="#">K7 Total Security - Official Site</a>
+            </li>
+            <li>
+                <strong>Quick Heal Total Security</strong><br>
+                Quick Heal is a popular Indian antivirus and internet security software with multiple layers of protection.
+                <br><a href="#">Quick Heal Total Security - Official Site</a>
+            </li>
+            <li>
+                <strong>eScan Internet Security Suite</strong><br>
+                eScan provides antivirus, anti-spam, and anti-phishing features along with data encryption and cloud security.
+                <br><a href="#">eScan - Official Site</a>
+            </li>
+            <li>
+                <strong>Seqrite Endpoint Security</strong><br>
+                Seqrite offers advanced endpoint security solutions for businesses.
+                <br><a href="#">Seqrite - Official Site</a>
+            </li>
+            <li>
+                <strong>Indian Government’s Cyber Swachhta Kendra (Botnet Cleaning and Malware Analysis Centre)</strong><br>
+                Cyber Swachhta Kendra provides free tools and software for detecting and removing botnets and malware.
+                <br><a href="#">Cyber Swachhta Kendra - Official Site</a>
+            </li>
+            <li>
+                <strong>WiJungle</strong><br>
+                WiJungle combines multiple network security products into a single platform.
+                <br><a href="#">WiJungle - Official Site</a>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        An initiative by Young Indians - Building a Better Tomorrow
+    </div>
+
+    <script>
+        // Smooth Scroll Effect
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation on Scroll
+        const contentContainers = document.querySelectorAll('.content-container');
+        window.addEventListener('scroll', function() {
+            contentContainers.forEach(container => {
+                const containerPosition = container.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight
